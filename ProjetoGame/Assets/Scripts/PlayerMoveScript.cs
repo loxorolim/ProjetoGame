@@ -3,9 +3,7 @@ using System.Collections;
 
 public class PlayerMoveScript : MonoBehaviour {
 	
-	public float speed = 0.01f;
-	public float acceleration = 30;
-	private Vector2 amountToMove;
+	
 	// Use this for initialization
 	void Start () {
 
@@ -44,7 +42,20 @@ public class PlayerMoveScript : MonoBehaviour {
 			//transform.rigidbody.AddForce (100, 0, 100);
 		
 		}
+		/*if (Input.GetKeyUp (KeyCode.Space))
+		{
+			print("Teste!");
+			
+			
+				transform.rigidbody.AddForce (0, 100, 0);
+				//pulou = true;
+				//transform.rigidbody.AddForce (100, 0, 100);
+			
+			}
+				
+		}
+		*/
 		
-	
+		
 	}
 }
