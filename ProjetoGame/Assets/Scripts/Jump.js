@@ -1,7 +1,7 @@
 #pragma strict
 var distToGround: float;
 var jumpSpeed = 10; 
-var jump = 200;
+var jump = 130;
 function Start(){
   // get the distance to ground
   distToGround = collider.bounds.extents.y;
