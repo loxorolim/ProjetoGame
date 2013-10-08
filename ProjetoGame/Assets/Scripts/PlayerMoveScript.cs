@@ -14,14 +14,14 @@ public class PlayerMoveScript : MonoBehaviour {
 		
 		if (Input.GetKey (KeyCode.DownArrow))
 		{
-			print("Teste!");
+			//print("Teste!");
 			transform.rigidbody.AddForce (0, 0, -10);
 			//transform.rigidbody.AddForce (100, 0, 100);
 		
 		}
 		if (Input.GetKey (KeyCode.LeftArrow))
 		{
-			print("Teste!");
+			//print("Teste!");
 			transform.rigidbody.AddForce (-10, 0, 0);
 			
 			//transform.rigidbody.AddForce (100, 0, 100);
@@ -29,7 +29,7 @@ public class PlayerMoveScript : MonoBehaviour {
 		}
 		if (Input.GetKey (KeyCode.RightArrow))
 		{
-			print("Teste!");
+			//print("Teste!");
 			transform.rigidbody.AddForce (10, 0, 0);
 			
 			//transform.rigidbody.AddForce (100, 0, 100);
@@ -37,7 +37,7 @@ public class PlayerMoveScript : MonoBehaviour {
 		}
 		if (Input.GetKey (KeyCode.UpArrow))
 		{
-			print("Teste!");
+			//print("Teste!");
 			transform.rigidbody.AddForce (0, 0, 10);
 			//transform.rigidbody.AddForce (100, 0, 100);
 		
