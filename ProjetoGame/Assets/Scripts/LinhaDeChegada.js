@@ -14,10 +14,7 @@ function OnCollisionEnter(collision : Collision) {
 		}
 		if (collision.gameObject.tag == "Player")
 		{
-		print("Chegou!");
-		//var playerrad = collision.gameObject.GetComponent(SphereCollider);
-		//var enemyrad = gameObject.GetComponent(SphereCollider);
-		//if( enemyrad.radius < playerrad.radius)
-		//print("Esfera maior!");
+			if( Application.loadedLevel + 1 < Application.levelCount )
+   			 Application.LoadLevel( Application.loadedLevel + 1 );
 		}
 	}

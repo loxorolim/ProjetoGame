@@ -32,4 +32,5 @@ function resetConfigurations()
 	this.gameObject.transform.localScale = Vector3(size,size,size);	
 	this.gameObject.transform.position = originalPosition;
 	this.gameObject.rigidbody.velocity = Vector3.zero;
+	this.gameObject.rigidbody.angularVelocity = Vector3.zero;
 }
