@@ -1,17 +1,23 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Enemy.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyProperties.js">
     <Files>
-      <File FileName="Assets\Scripts\Enemy.js" Line="18" Column="1" />
-      <File FileName="Assets\Scripts\Jump.js" Line="4" Column="14" />
-      <File FileName="Assets\Scripts\PlayerMoveScript.cs" Line="40" Column="6" />
-      <File FileName="Assets\Scripts\CamFollow.js" Line="7" Column="46" />
+      <File FileName="Assets\Scripts\PlayerMoveScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Jump.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CamFollow.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LightFollow.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\JmpFollow.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LinhaDeChegada.js" Line="10" Column="1" />
+      <File FileName="Assets\Scripts\ColisorDeQuedas.js" Line="20" Column="81" />
+      <File FileName="Assets\Scripts\PlayerProperties.js" Line="19" Column="58" />
+      <File FileName="Assets\Scripts\EnemyProperties.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Guilherme\Documents\GitHub\ProjetoGame\ProjetoGame\Assets\Scripts\Enemy.js" line="18" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
