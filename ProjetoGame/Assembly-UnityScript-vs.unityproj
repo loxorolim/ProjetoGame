@@ -46,13 +46,19 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CamFollow.js" />
      <Compile Include="Assets\Scripts\ColisorDeQuedas.js" />
+     <Compile Include="Assets\Scripts\Credits.js" />
      <Compile Include="Assets\Scripts\Enemy.js" />
+     <Compile Include="Assets\Scripts\Exit.js" />
      <Compile Include="Assets\Scripts\ForceForward.js" />
+     <Compile Include="Assets\Scripts\HowToPlay.js" />
      <Compile Include="Assets\Scripts\JmpFollow.js" />
      <Compile Include="Assets\Scripts\Jump.js" />
      <Compile Include="Assets\Scripts\LightFollow.js" />
      <Compile Include="Assets\Scripts\LinhaDeChegada.js" />
+     <Compile Include="Assets\Scripts\NewGame.js" />
      <Compile Include="Assets\Scripts\PlayerProperties.js" />
+     <Compile Include="Assets\Scripts\Return.js" />
+     <Compile Include="Assets\Scripts\ReturnMenu.js" />
      <Compile Include="Assets\Scripts\StaticEnemy.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
