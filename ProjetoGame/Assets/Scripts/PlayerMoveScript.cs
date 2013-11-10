@@ -3,7 +3,10 @@ using System.Collections;
 
 public class PlayerMoveScript : MonoBehaviour {
 	
-	
+	public bool MoveUp = true;
+	public bool MoveDown = true;
+	public bool MoveLeft = true;
+	public bool MoveRight = true;
 	// Use this for initialization
 	void Start () {
 
@@ -12,14 +15,14 @@ public class PlayerMoveScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		if (Input.GetKey (KeyCode.DownArrow))
+		if (Input.GetKey (KeyCode.DownArrow)&& MoveDown)
 		{
 			//print("Teste!");
 			transform.rigidbody.AddForce (0, 0, -10);
 			//transform.rigidbody.AddForce (100, 0, 100);
 		
 		}
-		if (Input.GetKey (KeyCode.LeftArrow))
+		if (Input.GetKey (KeyCode.LeftArrow)&& MoveLeft)
 		{
 			//print("Teste!");
 			transform.rigidbody.AddForce (-10, 0, 0);
@@ -27,7 +30,7 @@ public class PlayerMoveScript : MonoBehaviour {
 			//transform.rigidbody.AddForce (100, 0, 100);
 		
 		}
-		if (Input.GetKey (KeyCode.RightArrow))
+		if (Input.GetKey (KeyCode.RightArrow)&& MoveRight)
 		{
 			//print("Teste!");
 			transform.rigidbody.AddForce (10, 0, 0);
@@ -35,7 +38,7 @@ public class PlayerMoveScript : MonoBehaviour {
 			//transform.rigidbody.AddForce (100, 0, 100);
 		
 		}
-		if (Input.GetKey (KeyCode.UpArrow))
+		if (Input.GetKey (KeyCode.UpArrow)&& MoveUp)
 		{
 			//print("Teste!");
 			transform.rigidbody.AddForce (0, 0, 10);
