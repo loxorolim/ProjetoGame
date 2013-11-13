@@ -2,6 +2,7 @@
 var distToGround: float;
 var jumpSpeed = 10; 
 var jump = 4;
+var canJump = true;
 function Start(){
   // get the distance to ground
   distToGround = collider.bounds.extents.y;
@@ -13,7 +14,7 @@ function IsGrounded(): boolean {
  
 function Update () {
 distToGround = collider.bounds.extents.y;
-  if (Input.GetKeyDown(KeyCode.Space) && IsGrounded()){
+  if (Input.GetKeyDown(KeyCode.Space) && IsGrounded()&&canJump){
     //rigidbody.velocity.y = jumpSpeed;
     rigidbody.AddForce (0, jump, 0);
   }
