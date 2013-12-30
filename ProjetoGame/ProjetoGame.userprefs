@@ -1,9 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Jump.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Rotate.js">
     <Files>
-      <File FileName="Assets\Scripts\PlayerMoveScript.cs" Line="9" Column="31" />
-      <File FileName="Assets\Scripts\Jump.js" Line="17" Column="63" />
+      <File FileName="Assets\Scripts\PlayerMoveScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlataformMovement.js" Line="12" Column="1" />
+      <File FileName="Assets\Scripts\Jump.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EyeFollow.js" Line="7" Column="20" />
+      <File FileName="Assets\Scripts\Return.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy.js" Line="43" Column="50" />
+      <File FileName="Assets\Scripts\PlayerProperties.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ReturnPosition.js" Line="8" Column="56" />
+      <File FileName="Assets\Scripts\ColisorDeQuedas.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\StaticEnemy.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\StartPlataform.js" Line="10" Column="42" />
+      <File FileName="Assets\Scripts\Rotate.js" Line="18" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

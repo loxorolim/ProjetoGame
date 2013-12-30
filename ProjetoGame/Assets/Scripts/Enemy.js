@@ -40,6 +40,11 @@ function OnCollisionEnter(collision : Collision)
 			{
 				objs[i].GetComponent(Enemy).resetConfigurations();
 			} 
+			objs = GameObject.FindGameObjectsWithTag("Platform");
+			for( i = 0; i < objs.length;i++)
+			{
+				objs[i].GetComponent(PlataformMovement).resetConfigurations();
+			} 
 			collision.gameObject.GetComponent(PlayerProperties).resetConfigurations();
 		}
 	}
